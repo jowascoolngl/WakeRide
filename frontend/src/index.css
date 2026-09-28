@@ -1,0 +1,20 @@
+:root {
+  --paper: #f6f8f5;
+  --ink: #1d2c23;
+  --muted: #748078;
+  --line: #e4e9e4;
+  --green: #206749;
+  --sans: 'Trebuchet MS', 'Segoe UI', sans-serif;
+  font-family: var(--sans);
+  color: var(--ink);
+  background: var(--paper);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button,input,select { font: inherit; }
+#root { min-height: 100vh; }
